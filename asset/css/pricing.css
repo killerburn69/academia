@@ -564,6 +564,14 @@ footer{
     }
 }
 @media (max-width:768px) {
+    .faqs,
+    .footer-first,
+    .courses,
+    .testimonial,
+    .blog,
+    .pricing{
+        margin: 10px;
+    }
     .price-list .price{
         width: 100%;
     }
@@ -592,5 +600,9 @@ footer{
     }
     .type-courses .type{
         width: 100%;
+    }
+    .email{
+        padding-right:10px;
+        padding-left: 10px;
     }
 }

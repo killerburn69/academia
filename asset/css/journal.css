@@ -312,12 +312,12 @@ body{
     width: 450px;
 }
 .email-input>div{
-    width: 320px;
+    /* width: 320px; */
     border-bottom: 1px solid rgba(255, 255, 255, 0.8);
 }
 .email-input>div input{
    height: 45px;
-   width: 300px;
+   /* width: 300px; */
    outline: none;
    border: none;
    background-color: transparent;
@@ -330,6 +330,8 @@ body{
     font-size: 16px;
 }
 .email-input>div a{
+    float: right;
+    line-height: 45px;
     text-decoration: none;
     color: rgba(255, 255, 255, 0.8);
 }
@@ -520,6 +522,10 @@ footer{
     }
 }
 @media (max-width:768px) {
+    .footer-first,
+    .blog{
+        margin: 10px;
+    }
     .price-list .price{
         width: 100%;
     }
@@ -549,7 +555,8 @@ footer{
     .type-courses .type{
         width: 100%;
     }
-    .blog{
-        margin: 0;
+    .email{
+        padding-right:10px;
+        padding-left: 10px;
     }
 }

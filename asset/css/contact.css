@@ -321,12 +321,12 @@ body{
     width: 450px;
 }
 .email-input>div{
-    width: 320px;
+    /* width: 320px; */
     border-bottom: 1px solid rgba(255, 255, 255, 0.8);
 }
 .email-input>div input{
    height: 45px;
-   width: 300px;
+   /* width: 300px; */
    outline: none;
    border: none;
    background-color: transparent;
@@ -339,6 +339,8 @@ body{
     font-size: 16px;
 }
 .email-input>div a{
+    line-height: 45px;
+    float: right;
     text-decoration: none;
     color: rgba(255, 255, 255, 0.8);
 }
@@ -541,6 +543,10 @@ footer{
     }
 }
 @media (max-width:768px) {
+    .footer-first,
+    .contact{
+        margin: 10px;
+    }
     .price-list .price{
         width: 100%;
     }
@@ -572,5 +578,9 @@ footer{
     .content a{
         display: block;
         /* max-width: 600px; */
+    }
+    .email{
+        padding-right:10px;
+        padding-left: 10px;
     }
 }

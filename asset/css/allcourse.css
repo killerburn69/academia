@@ -425,12 +425,12 @@ body{
     width: 450px;
 }
 .email-input>div{
-    width: 320px;
+    /* width: 320px; */
     border-bottom: 1px solid rgba(255, 255, 255, 0.8);
 }
 .email-input>div input{
    height: 45px;
-   width: 300px;
+   /* width: 300px; */
    outline: none;
    border: none;
    background-color: transparent;
@@ -443,8 +443,10 @@ body{
     font-size: 16px;
 }
 .email-input>div a{
+    float: right;
     text-decoration: none;
     color: rgba(255, 255, 255, 0.8);
+    line-height: 45px;
 }
 footer{
     padding-top: 80px;
@@ -623,7 +625,14 @@ footer{
         display: none;
     }
 }
-@media (max-width:740px) {
+@media (max-width:768px) {
+    .footer-first,
+    .courses,
+    .testimonial,
+    .blog,
+    .pricing{
+        margin: 10px;
+    }
     .slider-courses .slide{
         width: 100%;
     }
@@ -641,5 +650,9 @@ footer{
     }
     .type-courses .type{
         width: 100%;
+    }
+    .email{
+        padding-right:10px;
+        padding-left: 10px;
     }
 }
